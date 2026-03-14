@@ -1,0 +1,19 @@
+Model type: <class 'dict'>
+Keys in dict: ['tfidf_vectorizer', 'tfidf_matrix', 'df_clean', 'skin_type_ingredients', 'skin_concern_ingredients']
+
+--- Key: tfidf_vectorizer ---
+Type: <class 'sklearn.feature_extraction.text.TfidfVectorizer'>
+Features out (first 50): ['10', '100', '100 stearate', '11', '12', '14700', '15', '150', '18', '19140', '19140 ci', '20', '26', '30', '30 alkyl', '42090', '60', '77019', '77491', '80', 'acetate', 'acetyl', 'acid', 'acid copolymer', 'acid sodium', 'acrylate', 'acrylate sodium', 'acrylates', 'acrylates c10', 'acrylates copolymer', 'acryloyldimethyl', 'acryloyldimethyl taurate', 'acryloyldimethyltaurate', 'acryloyldimethyltaurate vp', 'adenosine', 'alba', 'alcohol', 'alcohol denat', 'algae', 'algae extract', 'alkyl', 'allantoin', 'aloe', 'aloe barbadenis', 'alpha', 'alpha isomethyl', 'aluminum', 'amara', 'amara flower', 'ammonium']
+Total features out: 500
+
+--- Key: tfidf_matrix ---
+Type: <class 'scipy.sparse._csr.csr_matrix'>
+
+--- Key: df_clean ---
+Type: <class 'pandas.core.frame.DataFrame'>
+
+--- Key: skin_type_ingredients ---
+Type: <class 'dict'>
+
+--- Key: skin_concern_ingredients ---
+Type: <class 'dict'>
